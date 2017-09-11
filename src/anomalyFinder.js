@@ -30,5 +30,11 @@ class AnomalyFinder {
 const af = new AnomalyFinder();
 const x = [ 5, 15, 30 ];
 
-const isAnomaly = af.find(x, 55);
-console.log(`isAnomaly: ${isAnomaly}`);
+let isAnomaly = af.find(x, 1);
+console.log(`is 1 anomaly: ${isAnomaly}`);
+
+isAnomaly = af.find(x, 33);
+console.log(`is 33 anomaly: ${isAnomaly}`);
+
+isAnomaly = af.find(x, 55);
+console.log(`is 55 anomaly: ${isAnomaly}`);
