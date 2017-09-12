@@ -1,4 +1,4 @@
-# anomaly-detector
+# anomaly-finder
 Simple anomaly detector based on the [three-sigma rule of thumb](https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule).
 
 Example of usage:
