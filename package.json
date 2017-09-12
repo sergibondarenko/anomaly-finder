@@ -1,6 +1,5 @@
 {
   "author": "Sergii Bondarenko <sergibondarenko@gmail.com>",
-  "version": "0.0.1",
   "name": "anomaly-finder",
   "version": "1.0.0",
   "description": "Simple anomaly detector based on 3 sigma rule",
